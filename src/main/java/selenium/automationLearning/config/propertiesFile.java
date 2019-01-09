@@ -34,6 +34,7 @@ public class propertiesFile {
 		OutputStream outputFile = new FileOutputStream(test.pathDriverBrowser+"\\src\\main\\java\\selenium\\automationLearning\\config\\config.properties");
 		propertiesObject.setProperty("browser", changeBrowser);
 		propertiesObject.store(outputFile, null);
+		System.out.println("Prueba commit 2");
 	}
 	
 }
